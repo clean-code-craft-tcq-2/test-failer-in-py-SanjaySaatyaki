@@ -18,4 +18,7 @@ assert(result == 25)
 assert('White' in  all_color_codes[0])
 assert('Blue' in  all_color_codes[0])
 assert('1' in  all_color_codes[0])
+index_of_seperator = all_color_codes[0].index("|")
+for color in all_color_codes:
+    assert(index_of_seperator == color.index("|"))
 print("All is well (maybe!)\n")
