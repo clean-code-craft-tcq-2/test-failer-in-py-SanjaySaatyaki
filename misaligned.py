@@ -1,7 +1,3 @@
-
-from sqlalchemy import all_
-
-
 def print_color_map():
     all_color_codes = []
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
